@@ -1,0 +1,271 @@
+@media (max-width:1200px) {
+    .info {
+        display: none;
+    }
+    .info_2 {
+        display: none;
+    }
+    .info_img img {
+        display: none;
+    }
+    .logo {
+        margin-right: 150px;
+    }
+    .container {
+     padding: 0 40px;
+    }
+    .box_img {
+        display: none;
+    }
+    .box-text {
+        margin: 0 auto;
+        margin-top: 100px;
+        margin-bottom: 150px;
+    }
+    .about_bg2 {
+        display: none;
+    }
+    .about_text1 h2 {
+        font-size: 54px;
+    }
+    .header {
+        justify-content: space-between;
+        margin-right: 0px;
+    }
+    .bar {
+        background-image: none;
+    }
+    .blogs_grid {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        margin: 0 auto;
+    }
+    .blogs {
+        height: 2000px;
+    }
+    .menu_img {
+        display: none;
+    }
+    .belive_box h2{
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 0;
+    }
+    .happy_grid {
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        margin: 0 auto;
+    }
+    .food_img img{
+        display: none;
+    }
+    .food_grid {
+        justify-content: space-around;
+    }
+    .food_text {
+        text-align: center;
+        padding-top: 140px;
+    }
+    .food_text h4{
+       font-size: 55px;
+    }
+    .food {
+        height: 750px;
+    }
+}
+@media(max-width:992px) {
+    .about_text {
+        gap: 200px;
+    }
+    .logo {
+        display: none;
+    }
+    .navbar {
+        margin: 0 auto;
+    }
+    .about_text1 h2 {
+        font-size: 40px;
+    }
+    .about_text1 p {
+        font-size: 13px;
+    }
+    .blogs_grid {
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+    }
+    .blogs {
+        height: 2600px;
+    }
+    .first_menu h3{
+font-size: 30px;
+    }
+    .belive_box h2{
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 0;
+    }
+    .belive_box p {
+        font-size: 16px;
+    }
+    .block p {
+        font-size: 16px;
+    }
+    .belive_box h4 {
+        font-size: 39px;
+    }
+    .belive_box h2 {
+        font-size: 29px;
+    }
+    .img2 img {
+       display: none;
+    }
+    .belive_box {
+        margin: 0;
+    }
+    .belive {
+        height: 650px;
+    }
+    .belive_img img {
+        display: none;
+    }
+    .belive_box h6 {
+        margin-bottom: 0;
+    }
+    .belive_box  {
+        padding-top: 60px;
+    }
+    .content {
+        height: 550px;
+    }
+    .form input {
+        width: 550px;
+    }
+    #scrollTop {
+        display: none;
+    }
+}
+@media(max-width:768px) {
+    .about_text1 h2 {
+        font-size: 30px;
+    }
+    .about_text {
+        gap: 100px;
+    }
+    .about_text1 p {
+        font-size: 12px;
+    }
+    form {
+     flex-wrap: wrap;
+     gap: 15px;
+     justify-content: center;
+    } 
+    .book_text h2 {
+        font-size: 55px;
+        margin-bottom: 0px;
+    }
+    .btn_2 {
+        margin-top: 8px;
+    }
+    .menus {
+        flex-direction: column;
+        align-items: center;
+    }
+    .happy_text h2 {
+        font-size: 50px;
+    }
+    .grid_text p {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .food_grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .food_text h4 {
+        font-size: 45px;
+    }
+    .food {
+        height: 950px;
+    }
+    .form input {
+        width: 450px;
+    }
+    .btn {
+        margin-top: 15px;
+    }
+    .photo_img1 {
+        display: none;
+    }
+    .photo_img2 {
+        display: none;
+    }
+    .photo_img3 {
+        display: none;
+    }
+    span {
+        display: flex;
+        
+    }
+    .span2 span {
+        display: flex;
+    }
+    .span {
+        margin-left: 400px;
+    }
+}
+@media(max-width:576px){
+    .about_text {
+          flex-wrap: wrap;
+        }
+        .about_text1 {
+        margin-top: 0;
+        
+        }
+        .about_text1 h2 {
+            font-size: 40px;
+        }
+        .about_text1 p {
+            font-size: 14px;
+        }
+        .navbar {
+            display: none;
+        }
+        .about_bg {
+            display: none;
+        }
+        .box-text h2 {
+            font-size: 50px;
+            line-height: 60px;
+            margin-top: 15px;
+        }
+        .book_text h2 {
+            font-size: 45px;
+        }
+        .grid_text p {
+            font-size: 9px;
+        }
+        .food_text h4 {
+            font-size: 35px;
+        }
+        .food_grid_text p {
+            font-size: 13px;
+        }
+        .food {
+            height: 1000px;
+        }
+        .food_text h2 {
+            font-size: 50px;
+        }
+        .form input {
+            width: 300px;
+        }
+        .content_text h2 {
+            font-size: 45px;
+        }
+        .footer_grid {
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .span {
+            margin-left: 0px;
+
+        }
+}
